@@ -67,7 +67,7 @@ namespace IronRuby.Builtins {
         #region ToString, Equals, GetHashCode
 
         public override string/*!*/ ToString() {
-#if DEBUG && !SILVERLIGHT && CLR2
+#if DEBUG && !CLR2 && !SILVERLIGHT && !WIN8 && !ANDROID && !WP75
             if (RubyBinder._DumpingExpression) {
                 return RubyUtils.ObjectBaseToMutableString(this).ToString();
             }

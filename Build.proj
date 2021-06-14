@@ -59,9 +59,10 @@
     <ReferencedPlatform Include="net45" Condition=" '$(Mono)' != 'true' ">
       <BuildPrefix>v45</BuildPrefix>
     </ReferencedPlatform>
-    <ReferencedPlatform Include="net5" Condition=" '$(Mono)' != 'true' ">
-      <BuildPrefix>v5</BuildPrefix>
-    </ReferencedPlatform>
+	<!-- new .net 5 support 
+    <ReferencedPlatform Include="net50" Condition=" '$(Mono)' != 'true' ">
+      <BuildPrefix>v50</BuildPrefix>
+    </ReferencedPlatform>-->
   </ItemGroup>
 
   <ItemGroup>

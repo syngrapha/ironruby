@@ -93,7 +93,7 @@ namespace IronRuby.Runtime.Calls {
 
         [Conditional("DEBUG")]
         internal static void DumpPrecompiledRule(CallSiteBinder/*!*/ binder, MemberDispatcher/*!*/ dispatcher) {
-#if DEBUG && FEATURE_FULL_CONSOLE
+#if DEBUG && !CLR2 && !SILVERLIGHT && !WIN8 && !ANDROID && !WP75 && FEATURE_FULL_CONSOLE
             if (RubyOptions.ShowRules) {
                 var oldColor = Console.ForegroundColor;
                 Console.ForegroundColor = ConsoleColor.Cyan;

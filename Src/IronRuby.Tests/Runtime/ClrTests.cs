@@ -28,9 +28,9 @@ using Microsoft.Scripting.Math;
 using Microsoft.Scripting.Runtime;
 using Microsoft.Scripting.Utils;
 using Microsoft.Scripting.Actions;
+using System.Reflection.Emit;
 #if !CLR2
 using BigInt = System.Numerics.BigInteger;
-using System.Reflection.Emit;
 #endif
 
 namespace IronRuby.Tests {
