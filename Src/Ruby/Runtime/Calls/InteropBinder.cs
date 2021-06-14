@@ -32,6 +32,7 @@ using IronRuby.Builtins;
 using IronRuby.Compiler;
 using IronRuby.Runtime;
 using IronRuby.Runtime.Conversions;
+using Microsoft.Scripting.Math;
 
 namespace IronRuby.Runtime.Calls {
     using Ast = Expression;

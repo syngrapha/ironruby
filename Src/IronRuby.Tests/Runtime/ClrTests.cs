@@ -3290,10 +3290,11 @@ false
                 return a ?? b ?? 3;
             }
 
+      /*
             public object[] Numerics(byte a, sbyte b, short c, ushort d, int e, uint f, long g, ulong h, BigInteger i, Complex64 j, Convertible1 k) {
                 return new object[] { a, b, c, d, e, f, g, h, i, j, k };
             }
-
+      */
             public object[] Numerics(byte a, sbyte b, short c, ushort d, int e, uint f, long g, ulong h, BigInteger i) {
                 return new object[] { a, b, c, d, e, f, g, h, i };
             }

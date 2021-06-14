@@ -21,6 +21,7 @@ using IronRuby.Runtime;
 using IronRuby.Compiler.Ast;
 using System.Diagnostics;
 using Microsoft.Scripting.Utils;
+using Microsoft.Scripting.Math;
 using System.Runtime.InteropServices;
 
 namespace IronRuby.Compiler {

@@ -26,6 +26,7 @@ using IronRuby.Runtime;
 using Microsoft.Scripting;
 using Microsoft.Scripting.Runtime;
 using Microsoft.Scripting.Utils;
+using Microsoft.Scripting.Math;
 
 namespace IronRuby.Compiler {
     internal enum LexicalState : byte {
