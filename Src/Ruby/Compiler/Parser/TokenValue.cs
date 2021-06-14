@@ -16,7 +16,6 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.Scripting;
-using Microsoft.Scripting.Math;
 using IronRuby.Builtins;
 using IronRuby.Runtime;
 using IronRuby.Compiler.Ast;

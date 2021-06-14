@@ -135,6 +135,7 @@
     <Compile Include="Compiler\Ast\ConstructedSymbol.cs" />
     <Compile Include="Hosting\RubyConsoleHost.cs" />
     <Compile Include="Hosting\RubyService.cs" />
+    <Compile Include="Runtime\BigInteger.cs" />
     <Compile Include="Runtime\BinaryContentProvider.cs" />
     <Compile Include="Runtime\CallSiteStorages.cs" />
     <Compile Include="Runtime\Calls\BlockDispatcherProcN.cs" />

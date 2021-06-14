@@ -24,7 +24,6 @@ using IronRuby.Builtins;
 using IronRuby.Compiler.Ast;
 using IronRuby.Runtime;
 using Microsoft.Scripting;
-using Microsoft.Scripting.Math;
 using Microsoft.Scripting.Runtime;
 using Microsoft.Scripting.Utils;
 
